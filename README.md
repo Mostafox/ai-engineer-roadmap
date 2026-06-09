@@ -61,6 +61,17 @@ Both tracks **converge around Level 5** (LLMs), because once you're talking to m
 
 ---
 
+## 🧰 The Toolbox & Vibe Coding
+
+Two bonus chapters that turn you from "learner" into "builder":
+
+- **[🧰 TOOLBOX.md](TOOLBOX.md)** — the trending AI tools to **create anything**: websites, images, video, music, voices, and agents. Plus the top platforms AI engineers actually use (Hugging Face, Higgsfield, Cursor, Replicate, and more) and *what each one does*.
+- **[🎸 VIBE-CODING.md](VIBE-CODING.md)** — how to go from **idea → production-ready app in any language** by directing AI: the workflow, prompting like a pro, security before shipping, and the traps to dodge.
+
+> 🤖 **"Wait, am I allowed to use AI on my projects?"** Yes — but *when* matters. Early levels are hands-off so you actually learn; later levels are full vibe-coding because using AI well *is the job*. Every project carries an **🤖 AI verdict** — see **[PROJECTS.md → The "Can I Use AI?" Rule](PROJECTS.md#-the-can-i-use-ai-rule)**.
+
+---
+
 ## 🧭 How To Use This Repo
 
 1. **Pick your track** (above).
