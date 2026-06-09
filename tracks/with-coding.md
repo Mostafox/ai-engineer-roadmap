@@ -2,7 +2,7 @@
 
 > You already ship code. You don't need a 6-month "intro to variables." You need the **fast lane** to AI engineering — and a no-nonsense map of what's actually worth your time. Let's sprint. 🏃‍♂️💨
 
-This track maps onto the same [10-level campaign](../README.md#-the-campaign-map) but **compresses Levels 1–2 into a skim checklist**, drops you into the real work at Level 3, and **leans harder on production** (Levels 8–10) where most self-taught folks are weak and where you'll stand out.
+This track maps onto the same [12-level campaign](../README.md#-the-campaign-map) but **compresses Levels 1–2 into a skim checklist**, drops you into the real work at Level 3, and **leans harder on production** (Levels 9–11) where most self-taught folks are weak and where you'll stand out.
 
 📚 Resources → **[RESOURCES.md](../RESOURCES.md)** ⚔️ Project briefs → **[PROJECTS.md](../PROJECTS.md)**
 
@@ -73,37 +73,54 @@ Don't skip this thinking "LLMs are all that matters." Understanding train/test, 
 
 ---
 
-## Level 5 — Transformers & LLMs ✨
+## Level 5 — Vibe Coding 🎸
+
+You already write code — so this isn't about *whether* to use AI, it's about using it like a **tech lead**, not a copy-paste gremlin. Master this and you'll out-ship engineers twice your experience.
+
+**Learn:**
+- Agentic coding workflows: drive **Claude Code** / **Cursor** agent mode over a whole repo — plan, edit, run, iterate.
+- Treat the AI as a fast junior: make it propose a plan, review it critically, keep diffs small, and **read every line** (you can — you're a coder).
+- Prompting as spec-writing: precise context, one job per prompt, paste full stack traces, demand tests.
+- Guardrails that matter at speed: version-control every working state, run a **security-review pass** before deploy, never hardcode secrets.
+- Know when *not* to vibe: subtle algorithms and security-critical code still want your hands on the keyboard.
+
+**Resources:** → **[VIBE-CODING.md](../VIBE-CODING.md)** (the full playbook) + **[TOOLBOX.md → Vibe-Coding Tools](../TOOLBOX.md#-vibe-coding--ai-dev-tools)**
+
+**⚔️ Boss Project:** [Take a non-trivial app and build it end-to-end, AI-assisted, then deploy it](../PROJECTS.md#level-5--vibe-coding-) — and write a short "how I vibe-coded this" section in the README documenting your prompts and where you had to step in. *That meta-awareness is a senior signal.*
+
+---
+
+## Level 6 — Transformers & LLMs ✨
 
 **Learn:** Attention (read ["The Illustrated Transformer"](https://jalammar.github.io/illustrated-transformer/)), tokenization, embeddings, the [Hugging Face](https://huggingface.co/) ecosystem, and **prompt engineering** as engineering — structured outputs, system prompts, few-shot.
 
 **Resources:** → [RESOURCES.md → LLMs & Prompting](../RESOURCES.md#-llms--prompt-engineering)
 
-**⚔️ Boss Project:** A [prompt-powered app with a real evals harness](../PROJECTS.md#level-5--transformers--llms-). The evals are what separate engineers from prompt-tinkerers — lean in here.
+**⚔️ Boss Project:** A [prompt-powered app with a real evals harness](../PROJECTS.md#level-6--transformers--llms-). The evals are what separate engineers from prompt-tinkerers — lean in here.
 
 ---
 
-## Level 6 — RAG 📚
+## Level 7 — RAG 📚
 
 **Learn:** Embeddings, vector DBs ([Chroma](https://www.trychroma.com/)/FAISS/[pgvector](https://github.com/pgvector/pgvector)), chunking strategies, hybrid search, reranking, and **RAG evaluation** (retrieval quality, faithfulness). [LangChain](https://www.langchain.com/) / [LlamaIndex](https://www.llamaindex.ai/) — but understand the primitives so you can drop the framework when it bloats.
 
 **Resources:** → [RESOURCES.md → RAG](../RESOURCES.md#-rag-retrieval-augmented-generation)
 
-**⚔️ Boss Project:** [Production-grade "chat with your docs"](../PROJECTS.md#level-6--rag-) — citations, eval metrics, and a clean API. Push hard: this is *the* most in-demand skill right now.
+**⚔️ Boss Project:** [Production-grade "chat with your docs"](../PROJECTS.md#level-7--rag-) — citations, eval metrics, and a clean API. Push hard: this is *the* most in-demand skill right now.
 
 ---
 
-## Level 7 — Image & Video Generation 🎨
+## Level 8 — Image & Video Generation 🎨
 
 **Learn:** Diffusion intuition, [Stable Diffusion](https://stability.ai/)/[Flux](https://blackforestlabs.ai/), [ComfyUI](https://github.com/comfyanonymous/ComfyUI) graphs, ControlNet, and training a **LoRA**. Plus calling hosted gen APIs for product work.
 
 **Resources:** → [RESOURCES.md → Image & Video Gen](../RESOURCES.md#-image--video-generation)
 
-**⚔️ Boss Project:** [Image-gen web app **or** a trained LoRA](../PROJECTS.md#level-7--image--video-generation-) with a Gradio/Next.js front end. Visual projects get clicks — and clicks get callbacks.
+**⚔️ Boss Project:** [Image-gen web app **or** a trained LoRA](../PROJECTS.md#level-8--image--video-generation-) with a Gradio/Next.js front end. Visual projects get clicks — and clicks get callbacks.
 
 ---
 
-## Level 8 — Agents & Automation 🦾
+## Level 9 — Agents & Automation 🦾
 
 This is where coders pull ahead. Real agentic systems are *systems engineering*.
 
@@ -111,11 +128,11 @@ This is where coders pull ahead. Real agentic systems are *systems engineering*.
 
 **Resources:** → [RESOURCES.md → Agents & Automation](../RESOURCES.md#-agents--automation)
 
-**⚔️ Boss Project:** A [robust autonomous agent](../PROJECTS.md#level-8--agents--automation-) doing a genuinely useful task, with logging and guardrails. Build it as a reusable MCP server for extra credit.
+**⚔️ Boss Project:** A [robust autonomous agent](../PROJECTS.md#level-9--agents--automation-) doing a genuinely useful task, with logging and guardrails. Build it as a reusable MCP server for extra credit.
 
 ---
 
-## Level 9 — Ship It (LLMOps) 🚢
+## Level 10 — Ship It (LLMOps) 🚢
 
 Your home turf — make it your differentiator.
 
@@ -123,17 +140,17 @@ Your home turf — make it your differentiator.
 
 **Resources:** → [RESOURCES.md → Deployment & LLMOps](../RESOURCES.md#-deployment--llmops)
 
-**⚔️ Boss Project:** [Deploy a prior project as a real service](../PROJECTS.md#level-9--ship-it-llmops-) — Dockerized, monitored, with a CI pipeline and a status page. *This is what gets you hired as a senior.*
+**⚔️ Boss Project:** [Deploy a prior project as a real service](../PROJECTS.md#level-10--ship-it-llmops-) — Dockerized, monitored, with a CI pipeline and a status page. *This is what gets you hired as a senior.*
 
 ---
 
-## Level 10 — Unstoppable 👑
+## Level 11 — Unstoppable 👑
 
 **Learn:** Fine-tuning & PEFT/[LoRA](https://huggingface.co/docs/peft) for LLMs, quantization, rigorous evals, reading papers fast, and a personal "stay current" system. Then **contribute to open source** — a merged PR to a known AI repo is worth more than any certificate.
 
 **Resources:** → [RESOURCES.md → Staying Current](../RESOURCES.md#-staying-current-dont-drown)
 
-**⚔️ Boss Project:** A [full-stack capstone](../PROJECTS.md#level-10--unstoppable-) (RAG + agents + gen media, deployed) **and** a merged OSS contribution.
+**⚔️ Boss Project:** A [full-stack capstone](../PROJECTS.md#level-11--unstoppable-) (RAG + agents + gen media, deployed) **and** a merged OSS contribution.
 
 ---
 

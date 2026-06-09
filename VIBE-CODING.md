@@ -1,5 +1,7 @@
 # 🎸 Vibe Coding: 0 → Production in Any Language
 
+> 📍 **This is the playbook for [Level 5](README.md#-the-campaign-map) of the roadmap** — the skill that turns you from "someone who learned to code" into "someone who ships." Both tracks converge here.
+
 > **Vibe coding** = you describe what you want in plain language, and AI writes the code while you steer, review, and ship. You're the director; the AI is the crew. 🎬
 >
 > Done lazily, it produces broken apps you don't understand. Done *well*, it's a superpower that lets one person build what used to take a team. This guide teaches the *well* version.

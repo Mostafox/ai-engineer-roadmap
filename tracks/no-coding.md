@@ -2,7 +2,7 @@
 
 > "I've never written code in my life." Perfect. You're not behind — you're *unburdened*. Some of the best AI engineers started exactly where you are. Let's go. 🚀
 
-This track takes the [10-level campaign](../README.md#-the-campaign-map) and adds **more hand-holding, more reassurance, and a slower ramp** through the early levels. We spend extra time on Levels 0–2 so the foundation is rock-solid. By Level 5 you'll be neck-and-neck with the coders.
+This track takes the [12-level campaign](../README.md#-the-campaign-map) and adds **more hand-holding, more reassurance, and a slower ramp** through the early levels. We spend extra time on Levels 0–2 so the foundation is rock-solid. By Level 5 you'll be neck-and-neck with the coders.
 
 📚 All resources referenced here live in **[RESOURCES.md](../RESOURCES.md)**.
 ⚔️ All project briefs live in **[PROJECTS.md](../PROJECTS.md)**.
@@ -89,11 +89,29 @@ Recommended: **fast.ai "Practical Deep Learning for Coders"** — top-down and b
 
 **⚔️ Boss Project:** A [custom image classifier](../PROJECTS.md#level-4--deep-learning-) — your dog vs. your cat, healthy vs. diseased leaves, anything. Fine-tune a pretrained model.
 
-> 🎉 **You made it to the convergence point.** From here, you and the coders walk the same road.
+> 🎉 **You made it to the convergence point.** From here, you and the coders walk the same road — starting with the skill that levels the playing field: vibe coding.
 
 ---
 
-## Level 5 — Transformers & LLMs ✨
+## Level 5 — Vibe Coding 🎸
+
+**Goal:** Learn to build real software *fast* by directing AI — your single biggest accelerator from here on.
+
+**Learn:**
+- The mindset shift: you're the **director**, the AI is the crew. You decide *what* to build and *whether the result is good*; the AI types the boilerplate.
+- The **Golden Rule:** never ship code you don't understand. AI writes it — you read, question, and verify it.
+- The workflow: define → ask AI to *plan* → scaffold → build one small feature at a time → read & test → secure → deploy.
+- The tools: prompt-to-app builders (Bolt.new, Lovable, v0) and AI editors (Cursor, Claude Code).
+
+**Resources:** → **[VIBE-CODING.md](../VIBE-CODING.md)** (the full playbook) + **[TOOLBOX.md → Vibe-Coding Tools](../TOOLBOX.md#-vibe-coding--ai-dev-tools)**
+
+**⚔️ Boss Project:** [Rebuild one of your earlier projects](../PROJECTS.md#level-5--vibe-coding-) (your Level 3 ML demo is perfect) **AI-assisted, and actually deploy it** with a public URL. Same app, half the time — now you feel the superpower.
+
+> 🌟 **For you especially:** vibe coding is *not* cheating and *not* a shortcut around learning — you've already done Levels 1–4 the hard way, so you can now read what the AI writes. That's exactly when AI becomes a rocket instead of a crutch.
+
+---
+
+## Level 6 — Transformers & LLMs ✨
 
 **Goal:** Understand and command the models behind ChatGPT/Claude.
 
@@ -101,11 +119,11 @@ Recommended: **fast.ai "Practical Deep Learning for Coders"** — top-down and b
 
 **Resources:** → [RESOURCES.md → LLMs & Prompting](../RESOURCES.md#-llms--prompt-engineering)
 
-**⚔️ Boss Project:** A [prompt-powered app](../PROJECTS.md#level-5--transformers--llms-) (study-buddy, recipe-from-fridge-contents, email rewriter) + a small **evals** notebook proving it works.
+**⚔️ Boss Project:** A [prompt-powered app](../PROJECTS.md#level-6--transformers--llms-) (study-buddy, recipe-from-fridge-contents, email rewriter) + a small **evals** notebook proving it works.
 
 ---
 
-## Level 6 — RAG 📚
+## Level 7 — RAG 📚
 
 **Goal:** Make an AI answer questions about *your* documents — accurately, with sources.
 
@@ -113,11 +131,11 @@ Recommended: **fast.ai "Practical Deep Learning for Coders"** — top-down and b
 
 **Resources:** → [RESOURCES.md → RAG](../RESOURCES.md#-rag-retrieval-augmented-generation)
 
-**⚔️ Boss Project:** [**Chat with your docs**](../PROJECTS.md#level-6--rag-) — upload PDFs and ask questions, with citations. *This single project gets people interviews.*
+**⚔️ Boss Project:** [**Chat with your docs**](../PROJECTS.md#level-7--rag-) — upload PDFs and ask questions, with citations. *This single project gets people interviews.*
 
 ---
 
-## Level 7 — Image & Video Generation 🎨
+## Level 8 — Image & Video Generation 🎨
 
 **Goal:** Generate and control images (and dabble in video).
 
@@ -125,11 +143,11 @@ Recommended: **fast.ai "Practical Deep Learning for Coders"** — top-down and b
 
 **Resources:** → [RESOURCES.md → Image & Video Gen](../RESOURCES.md#-image--video-generation)
 
-**⚔️ Boss Project:** An [image-gen web app or a custom LoRA](../PROJECTS.md#level-7--image--video-generation-) trained on a theme you love. Wildly portfolio-friendly — it's *visual*.
+**⚔️ Boss Project:** An [image-gen web app or a custom LoRA](../PROJECTS.md#level-8--image--video-generation-) trained on a theme you love. Wildly portfolio-friendly — it's *visual*.
 
 ---
 
-## Level 8 — Agents & Automation 🦾
+## Level 9 — Agents & Automation 🦾
 
 **Goal:** Build AI that *acts*, not just chats — uses tools, takes steps, gets things done.
 
@@ -137,11 +155,11 @@ Recommended: **fast.ai "Practical Deep Learning for Coders"** — top-down and b
 
 **Resources:** → [RESOURCES.md → Agents & Automation](../RESOURCES.md#-agents--automation)
 
-**⚔️ Boss Project:** An [agent that does a real task](../PROJECTS.md#level-8--agents--automation-) — researches a topic and emails you a digest, triages your inbox, or auto-files expenses.
+**⚔️ Boss Project:** An [agent that does a real task](../PROJECTS.md#level-9--agents--automation-) — researches a topic and emails you a digest, triages your inbox, or auto-files expenses.
 
 ---
 
-## Level 9 — Ship It (LLMOps) 🚢
+## Level 10 — Ship It (LLMOps) 🚢
 
 **Goal:** Turn a notebook toy into a real, deployed thing people can use.
 
@@ -149,11 +167,11 @@ Recommended: **fast.ai "Practical Deep Learning for Coders"** — top-down and b
 
 **Resources:** → [RESOURCES.md → Deployment & LLMOps](../RESOURCES.md#-deployment--llmops)
 
-**⚔️ Boss Project:** [Take an earlier project and deploy it for real](../PROJECTS.md#level-9--ship-it-llmops-) — public URL, uptime, a `Dockerfile`. This is the leap from "student" to "engineer."
+**⚔️ Boss Project:** [Take an earlier project and deploy it for real](../PROJECTS.md#level-10--ship-it-llmops-) — public URL, uptime, a `Dockerfile`. This is the leap from "student" to "engineer."
 
 ---
 
-## Level 10 — Unstoppable 👑
+## Level 11 — Unstoppable 👑
 
 **Goal:** Final form. Fine-tune models, evaluate rigorously, contribute to open source, and build a system to stay current forever.
 
@@ -161,7 +179,7 @@ Recommended: **fast.ai "Practical Deep Learning for Coders"** — top-down and b
 
 **Resources:** → [RESOURCES.md → Staying Current](../RESOURCES.md#-staying-current-dont-drown)
 
-**⚔️ Boss Project:** A [capstone](../PROJECTS.md#level-10--unstoppable-) combining RAG + agents + generative media, **plus** your first open-source contribution to an AI repo.
+**⚔️ Boss Project:** A [capstone](../PROJECTS.md#level-11--unstoppable-) combining RAG + agents + generative media, **plus** your first open-source contribution to an AI repo.
 
 ---
 

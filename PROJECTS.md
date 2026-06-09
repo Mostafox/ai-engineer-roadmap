@@ -87,11 +87,23 @@ The legend:
 
 ---
 
-## Level 5 — Transformers & LLMs ✨
+## Level 5 — Vibe Coding 🎸
+
+🎯 **Goal:** Build and ship a real app by *directing AI* — fast, deployed, and fully understood.
+🧰 **Stack:** An AI coding tool (Cursor / Claude Code / Bolt.new / v0 / Lovable) + any language/framework you like + a free host. Full playbook: **[VIBE-CODING.md](VIBE-CODING.md)**.
+🤖 **AI:** ✅ **Go for it** — this is the *one project where using AI is literally the assignment.* The skill being graded is *directing and reviewing* the AI, not avoiding it.
+**Build:** Take an earlier project (your Level 3 ML demo is ideal) **or** a fresh small idea (URL summarizer, expense splitter, habit tracker) and build it end-to-end with an AI assistant, then **deploy it to a public URL.** Work in small loops: plan → scaffold → one feature at a time → read every line → test → secure → ship.
+
+🚀 **Stretch:** Add a **"🤖 How I vibe-coded this"** section to the README — your key prompts, where the AI was great, and where you had to step in and fix it. Bonus: a `SECURITY` checklist proving you removed secrets and added input validation before deploy.
+💼 **Proves:** You can ship production-ready software *fast* using modern AI tooling — the single most valuable day-to-day skill for a 2026 AI engineer — **while still understanding and owning the code.** That combo is exactly what employers are scrambling for.
+
+---
+
+## Level 6 — Transformers & LLMs ✨
 
 🎯 **Goal:** Build a useful LLM app **and** prove it works.
 🧰 **Stack:** Anthropic/OpenAI API (or HF), Python, a simple UI (Streamlit/Gradio).
-🤖 **AI:** ✅ **Go for it** — vibe coding officially unlocked. From here, *using AI tools well is the skill.* Just understand every line you ship, especially the prompts and evals.
+🤖 **AI:** ✅ **Go for it** — vibe coding officially unlocked (you trained for it in Level 5). From here, *using AI tools well is the skill.* Just understand every line you ship, especially the prompts and evals.
 **Build:** A **prompt-powered app** — a study-buddy that quizzes you, "what can I cook with these fridge items," a tone-adjusting email rewriter, or a meeting-notes summarizer. **Plus a small evals notebook**: 10–20 test cases scoring quality, so you can prove it's not vibes.
 
 🚀 **Stretch:** Add structured output (JSON), few-shot examples, and prompt versions you A/B tested.
@@ -99,7 +111,7 @@ The legend:
 
 ---
 
-## Level 6 — RAG 📚
+## Level 7 — RAG 📚
 
 🎯 **Goal:** Make an AI answer questions about specific documents, **with citations.**
 🧰 **Stack:** LangChain *or* LlamaIndex, an embedding model, Chroma/FAISS/pgvector, Streamlit/FastAPI.
@@ -111,7 +123,7 @@ The legend:
 
 ---
 
-## Level 7 — Image & Video Generation 🎨
+## Level 8 — Image & Video Generation 🎨
 
 🎯 **Goal:** Generate and *control* visual content.
 🧰 **Stack:** diffusers / Stable Diffusion / Flux, ComfyUI, LoRA/PEFT, Gradio or Next.js.
@@ -125,7 +137,7 @@ The legend:
 
 ---
 
-## Level 8 — Agents & Automation 🦾
+## Level 9 — Agents & Automation 🦾
 
 🎯 **Goal:** Build AI that *acts* — uses tools, takes multiple steps, finishes a real task.
 🧰 **Stack:** Function/tool calling, LangGraph or a custom loop, MCP, n8n (optional).
@@ -137,19 +149,19 @@ The legend:
 
 ---
 
-## Level 9 — Ship It (LLMOps) 🚢
+## Level 10 — Ship It (LLMOps) 🚢
 
 🎯 **Goal:** Turn a notebook toy into a real, deployed service people can hit.
 🧰 **Stack:** FastAPI, Docker, a cloud host (Railway/Render/Fly/HF Spaces), Langfuse/LangSmith.
 🤖 **AI:** ✅ **Go for it** — but run a **security-review prompt** before you deploy (no leaked keys, validated input, rate limits). Understand your deploy setup; "the AI did it" won't save a downed service.
-**Build:** Take your **Level 6 RAG app or Level 8 agent** and ship it properly: FastAPI backend, `Dockerfile`, streaming responses, caching, rate limiting, basic monitoring, and a public URL.
+**Build:** Take your **Level 7 RAG app or Level 9 agent** and ship it properly: FastAPI backend, `Dockerfile`, streaming responses, caching, rate limiting, basic monitoring, and a public URL.
 
 🚀 **Stretch:** Add a CI pipeline that runs your evals on every push; a status page; prompt versioning.
 💼 **Proves:** You're an **engineer**, not a tutorial-follower. "I deployed it, here's the live URL and the Dockerfile" is the sentence that gets you hired as a senior.
 
 ---
 
-## Level 10 — Unstoppable 👑
+## Level 11 — Unstoppable 👑
 
 🎯 **Goal:** Final form — fine-tune, evaluate rigorously, and give back.
 🧰 **Stack:** PEFT/LoRA for LLMs, an eval framework, + everything above.
@@ -165,7 +177,7 @@ The legend:
 
 ## 🧱 Turn Projects into a Resume
 
-You've built ~11 projects. Now make them *work for you*:
+You've built ~12 projects. Now make them *work for you*:
 
 ### 📌 Pin your best 6
 GitHub lets you pin 6 repos to your profile. Choose the ones that show range: **RAG, an agent, a deployed service, a gen-media app, a deep-learning model, the capstone.**
