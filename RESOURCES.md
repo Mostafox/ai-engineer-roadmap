@@ -6,6 +6,8 @@
 
 Links are reputable starting points, not gospel — the field moves fast, so verify currency and follow your nose.
 
+> 🗺️ **Want resources mapped to each level instead of by topic?** See **[ROADMAP-SH.md](ROADMAP-SH.md)** — videos & articles for every level, curated from the [roadmap.sh](https://roadmap.sh) developer roadmaps.
+
 ---
 
 ## 🛠️ Setup & Git
